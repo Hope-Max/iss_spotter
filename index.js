@@ -5,7 +5,7 @@
 //     console.log("It didn't work!" , error);
 //     return;
 //   }
-
+//   console.log(ip);
 //   console.log('It worked! Returned IP:' , ip);
 // });
 
@@ -28,29 +28,29 @@
 // });
 
 
-// fetchMyIP((error, ip) => {
-//   if (error) {
-//     console.log("The fetchMyIP function didn't work!" , error);
-//     return;
-//   }
+// // fetchMyIP((error, ip) => {
+// //   if (error) {
+// //     console.log("The fetchMyIP function didn't work!" , error);
+// //     return;
+// //   }
 
-//   fetchCoordsByIP(ip, (error, coordinates) => {
-//     if (error) {
-//       console.log("The fetchCoordsByIP function didn't work!", error);
-//       return;
-//     }
+// //   fetchCoordsByIP(ip, (error, coordinates) => {
+// //     if (error) {
+// //       console.log("The fetchCoordsByIP function didn't work!", error);
+// //       return;
+// //     }
     
-//     fetchISSFlyOverTimes(coordinates, (error, passTimes) => {
-//       if (error) {
-//         console.log("The fetchISSFlyOverTimes function didn't work!", error);
-//         return;
-//       }
+// //     fetchISSFlyOverTimes(coordinates, (error, passTimes) => {
+// //       if (error) {
+// //         console.log("The fetchISSFlyOverTimes function didn't work!", error);
+// //         return;
+// //       }
 
-//       console.log(passTimes);
-//     });
-//   });
+// //       console.log(passTimes);
+// //     });
+// //   });
   
-// });
+// // });
 
 const { nextISSTimesForMyLocation } = require('./iss');
 
